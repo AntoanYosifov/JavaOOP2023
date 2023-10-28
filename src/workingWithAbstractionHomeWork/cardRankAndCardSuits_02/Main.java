@@ -2,6 +2,7 @@ package workingWithAbstractionHomeWork.cardRankAndCardSuits_02;
 import java.util.Scanner;
 public class Main {
     enum CardSuits {
+
         CLUBS,
         DIAMONDS,
         HEARTS,
