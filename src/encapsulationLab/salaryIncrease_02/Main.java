@@ -16,7 +16,17 @@ public class Main {
         List<Person> people = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             String[] input = reader.readLine().split(" ");
-            people.add(new Person(input[0], input[1], Integer.parseInt(input[2]), Double.parseDouble(input[3])));
+            Person person = null;
+
+            try {
+                person = new Person(input[0], input[1], Integer.parseInt(input[2]), Double.parseDouble(input[3]));
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage());
+            }
+            if (person != null) {
+                people.add(person);
+            }
+
         }
         double bonus = Double.parseDouble(reader.readLine());
         for (Person person : people) {
