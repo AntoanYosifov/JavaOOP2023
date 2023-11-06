@@ -1,4 +1,4 @@
-package inheritanceLab.singleInheritance_01;
+package inheritanceLab.animal;
 
 public class Dog extends Animal {
 

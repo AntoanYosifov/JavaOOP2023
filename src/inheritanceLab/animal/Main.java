@@ -1,4 +1,4 @@
-package inheritanceLab.singleInheritance_01;
+package inheritanceLab.animal;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,5 +9,8 @@ public class Main {
         dog.eat();
         dog.bark();
 
+        Cat cat = new Cat();
+        cat.eat();
+        cat.meow();
     }
 }
