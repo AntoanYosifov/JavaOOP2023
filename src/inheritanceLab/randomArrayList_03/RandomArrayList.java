@@ -14,9 +14,9 @@ public class RandomArrayList<T> extends ArrayList<T> {
     public T getRandomElement() {
 
 
-        int rand = this.random.nextInt(super.size());
-
-
-        return super.get(rand);
+        int index = this.random.nextInt(super.size());
+        T element = super.get(index);
+        super.remove(index);
+        return element;
     }
 }
