@@ -1,4 +1,4 @@
-package reflectionAnnotationHomeWork.harvestingFields;
+package reflectionAnnotationHomeWork.harvestingFields_01;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
