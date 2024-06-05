@@ -1,2 +1,2 @@
 # JavaOOP2023
-Solutions to problems as part of my studies at Software University(SoftUni)
+University project focused on Object-Oriented Programming in Java. Developed comprehensive Java applications.
